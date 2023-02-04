@@ -21,13 +21,14 @@ export function Mandala({ transformationCode }: { transformationCode: string }) 
     )
 }
 
-
 export default Mandala;
 
 const Arrangement = styled.div`
+    position: absolute;
+    top: 100px; 
     #slice1 {
         position: absolute;
-        top: 349px;
+        top: 348px;
         left: 299px;
         transform: rotate(0deg);
     }
@@ -81,7 +82,7 @@ const Arrangement = styled.div`
     }
     #slice10 {
         position: absolute;
-        top: 317px;
+        top: 316px;
         left: 394px;
         transform: rotate(324deg);
     }
